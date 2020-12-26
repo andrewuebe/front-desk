@@ -157,7 +157,7 @@ class App extends React.Component {
         <div
           className={this.state.hotelFound ? "hotel-dvds loaded" : "hotel-dvds"}
         >
-          <div className="speech-bubble-intro">The employee at the front desk presents you with two dvd cases. With a smile, the employee adds:</div>
+          <div className="speech-bubble-intro">The employee at the front desk presents you with two worn dvd cases. With a smile, the employee adds:</div>
           <blockquote className="speech-bubble heading--halftone">
             <p>"These are all the movies we have. Enjoy!"</p>
           </blockquote>
