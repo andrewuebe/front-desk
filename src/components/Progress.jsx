@@ -1,5 +1,7 @@
 import React from "react";
 
+var dynamicWidth = 0;
+
 function parseProgressHeader(val) {
   if (val >= 3600){
     return "Refresh!"
@@ -44,9 +46,9 @@ function parseProgressCopy(val) {
 
 function dynamicProgressWidth(mins) {
   if(mins >= 3600) {
-    var dynamicWidth = '100%'
+    dynamicWidth = '100%';
   } else {
-    var dynamicWidth = `${(mins / 3600) * 100}%`
+    dynamicWidth = `${(mins / 3600) * 100}%`;
   }
   return dynamicWidth;
 }
