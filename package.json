@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "REACT_APP_API_DOMAIN=http://localhost:8080/api react-scripts start",
-    "build": "REACT_APP_API_DOMAIN=http://back-desk.theonlytwodvdstheyhaveatthefrontdeskatthisearlyaughtshotel.com/api react-scripts build",
+    "build": "REACT_APP_API_DOMAIN=http://back-desk.thehotelbackdesk.digital/api react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
