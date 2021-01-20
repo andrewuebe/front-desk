@@ -187,7 +187,7 @@ class App extends React.Component {
           </div>
           <div className="socials">
             <div className="socials-head">Like the website?</div>
-            <p>Let me know on <a href="https://twitter.com/ImUebes">my Twitter</a>, or <a href="https://ko-fi.com/imuebes">throw me a buck or two</a> so I can pay to keep this stupid thing up lol.</p>
+            <p>Donate <a href="https://ko-fi.com/imuebes">a buck or two</a> so I can pay to keep this silly project online!</p>
           </div>
         </div>
         <div className={this.state.deliveryProgressVisible ? "dvd-delivery show-progress" : "dvd-delivery"}>
