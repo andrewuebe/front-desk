@@ -145,7 +145,7 @@ class App extends React.Component {
         >
           <div
             className="hotel-hero"
-            style={this.state.hotelFound ? { backgroundImage: `url(${this.state.imageUrl})` } : { backgroundImage: `url('${process.env.PUBLIC_URL}/loading-cover.gif')` }}
+            style={this.state.hotelFound ? { backgroundImage: `url('${process.env.PUBLIC_URL}/front-desk-hero.png')` } : { backgroundImage: `url('${process.env.PUBLIC_URL}/loading-cover.gif')` }}
           >
             <div className="hotel-details">
               <div className="hotel-name"><span>{this.state.hotelFound ? this.state.name : `Loading...`}</span></div>
